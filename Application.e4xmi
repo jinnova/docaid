@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_6wlLcMgZEeSyMNYR5xypkQ" elementId="com.jinnova.docaid.application" bindingContexts="_6wlLecgZEeSyMNYR5xypkQ">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_6wlLccgZEeSyMNYR5xypkQ" elementId="com.jinnova.docaid.window.main" label="DocAid" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_6wlLkMgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.ide.perspectivestack">
+      <children xsi:type="advanced:Perspective" xmi:id="_6wlLkcgZEeSyMNYR5xypkQ" elementId="com.jinnova.docaid.perspective.inception" label="%perspective.inception">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_6wlLksgZEeSyMNYR5xypkQ" elementId="com.jinnova.docaid.partsashcontainer.sample" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_cAVxYOW-EeWB3c3hwdensQ" elementId="com.jinnova.docaid.partstack.0" containerData="40" selectedElement="_SLfBkOW9EeWB3c3hwdensQ">
+            <children xsi:type="basic:Part" xmi:id="_SLfBkOW9EeWB3c3hwdensQ" elementId="com.jinnova.docaid.part.searchlist" containerData="" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.PatientSearchPart" label="%part.search">
+              <menus xmi:id="_q77x0PVzEeWLlLR1DTL5Mw" elementId="com.jinnova.docaid.menu.xobnhnhn" label="">
+                <tags>ViewMenu</tags>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_vDYIUPVzEeWLlLR1DTL5Mw" elementId="com.jinnova.docaid.handledmenuitem.xobnhnhn" label="%part.search.menu.delete" command="_4N7zYPVzEeWLlLR1DTL5Mw"/>
+              </menus>
+            </children>
+          </children>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_ftkdwOaSEeWB3c3hwdensQ" elementId="com.jinnova.docaid.partsashcontainer.1" containerData="60">
+            <children xsi:type="basic:PartStack" xmi:id="_6wlLk8gZEeSyMNYR5xypkQ" elementId="com.jinnova.docaid.partstack.sample">
+              <children xsi:type="basic:Part" xmi:id="_6wlLlMgZEeSyMNYR5xypkQ" elementId="com.jinnova.docaid.part.patientinfo" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.PatientInfoPart" label="%part.patientInfo">
+                <menus xmi:id="_ys9osPV0EeWLlLR1DTL5Mw" elementId="com.jinnova.docaid.menu.0">
+                  <tags>ViewMenu</tags>
+                  <children xsi:type="menu:HandledMenuItem" xmi:id="_zpUjQPV0EeWLlLR1DTL5Mw" elementId="com.jinnova.docaid.handledmenuitem.xostht" label="%part.patientInfo.menu.deleteTicket" command="_EES9YPV0EeWLlLR1DTL5Mw"/>
+                </menus>
+              </children>
+            </children>
+            <children xsi:type="basic:PartStack" xmi:id="_imMQsOaSEeWB3c3hwdensQ" elementId="com.jinnova.docaid.partstack.3">
+              <children xsi:type="basic:Part" xmi:id="_kZCHUOaSEeWB3c3hwdensQ" elementId="com.jinnova.docaid.part.bnhnhnangch" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.WaitingQueuePartDiag" label="%part.queueBegin"/>
+              <children xsi:type="basic:Part" xmi:id="_s39bcOaSEeWB3c3hwdensQ" elementId="com.jinnova.docaid.part.bnhnhnchthuc" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.WaitingQueuePartMed" label="%part.queueMed"/>
+              <children xsi:type="basic:Part" xmi:id="_XpkVoOaTEeWB3c3hwdensQ" elementId="com.jinnova.docaid.part.hontt" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.WaitingQueuePartDone" label="%part.queueEnd"/>
+            </children>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="advanced:Perspective" xmi:id="_eVf0YOaOEeWB3c3hwdensQ" elementId="com.jinnova.docaid.perspective.diag" label="%perspective.diag">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_k2s3kOaOEeWB3c3hwdensQ" elementId="com.jinnova.docaid.partsashcontainer.0" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_eBWRcOmQEeW1Lq5l2hHwdQ" elementId="com.jinnova.docaid.partsashcontainer.3" containerData="20">
+            <children xsi:type="basic:PartStack" xmi:id="_l9XksOaOEeWB3c3hwdensQ" elementId="com.jinnova.docaid.partstack.1" containerData="80">
+              <children xsi:type="basic:Part" xmi:id="_mviBcOaOEeWB3c3hwdensQ" elementId="com.jinnova.docaid.part.bnhnhnchkhm" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.WaitingQueuePartDiag" label="%part.queueBegin"/>
+              <children xsi:type="basic:Part" xmi:id="_j-U4IOmOEeW1Lq5l2hHwdQ" elementId="com.jinnova.docaid.part.bnhnhnkhm" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.WaitingQueuePartMed" label="%part.queueMed"/>
+              <children xsi:type="basic:Part" xmi:id="_Rz0aEOmPEeW1Lq5l2hHwdQ" elementId="com.jinnova.docaid.part.hontt" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.WaitingQueuePartDone" label="%part.queueEnd"/>
+              <children xsi:type="basic:Part" xmi:id="_uVDGQOmMEeW1Lq5l2hHwdQ" elementId="com.jinnova.docaid.part.tmkim" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.PatientSearchPart" label="%part.search"/>
+            </children>
+            <children xsi:type="basic:PartStack" xmi:id="_hjbREOmQEeW1Lq5l2hHwdQ" elementId="com.jinnova.docaid.partstack.6" containerData="20">
+              <children xsi:type="basic:Part" xmi:id="_i0YioOmQEeW1Lq5l2hHwdQ" elementId="com.jinnova.docaid.part.gianh" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.FamilyPart" label="%part.family"/>
+            </children>
+          </children>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_hpw0gOmOEeW1Lq5l2hHwdQ" elementId="com.jinnova.docaid.partsashcontainer.2" containerData="80">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_6lfgAOmTEeW1Lq5l2hHwdQ" elementId="com.jinnova.docaid.partsashcontainer.4" containerData="80" horizontal="true">
+              <children xsi:type="basic:PartStack" xmi:id="_jE5VwOmOEeW1Lq5l2hHwdQ" elementId="com.jinnova.docaid.partstack.5" containerData="70">
+                <children xsi:type="basic:Part" xmi:id="_l14FEOmNEeW1Lq5l2hHwdQ" elementId="com.jinnova.docaid.part.khmbnh" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.DiagnosePart" label="%part.diagnosis">
+                  <menus xmi:id="_5lGlMPV0EeWLlLR1DTL5Mw" elementId="com.jinnova.docaid.menu.1">
+                    <tags>ViewMenu</tags>
+                    <children xsi:type="menu:HandledMenuItem" xmi:id="_ppQXEPV1EeWLlLR1DTL5Mw" elementId="com.jinnova.docaid.handledmenuitem.xophiukhmbnh" label="%part.diagnosis.menu.deleteDiagRecord" command="_SOYoEPV1EeWLlLR1DTL5Mw"/>
+                    <children xsi:type="menu:HandledMenuItem" xmi:id="_6Rg_QPV0EeWLlLR1DTL5Mw" elementId="com.jinnova.docaid.handledmenuitem.mliphiukhmbnh" label="%part.diagnosis.menu.reopenDiagRecord" command="_SB7kkPYyEeWRH-MYlofjBQ"/>
+                  </menus>
+                </children>
+              </children>
+              <children xsi:type="basic:PartStack" xmi:id="__9oCUOmTEeW1Lq5l2hHwdQ" elementId="com.jinnova.docaid.partstack.2" containerData="30">
+                <children xsi:type="basic:Part" xmi:id="_AnEn8OmUEeW1Lq5l2hHwdQ" elementId="com.jinnova.docaid.part.toathuc" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.PrescriptionPart" label="%part.prescription"/>
+              </children>
+            </children>
+            <children xsi:type="basic:PartStack" xmi:id="_ef318OmPEeW1Lq5l2hHwdQ" elementId="com.jinnova.docaid.partstack.4" containerData="20">
+              <children xsi:type="basic:Part" xmi:id="_xPJYgOmPEeW1Lq5l2hHwdQ" elementId="com.jinnova.docaid.part.cclnkhmtrc" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.DiagListPart" label="%part.diagList"/>
+              <children xsi:type="basic:Part" xmi:id="_zW4ggPyoEeWNT7elKjxhAg" elementId="com.jinnova.docaid.part.gianhtmkim" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.PatientSearchPartFamily" label="%part.familySearch"/>
+            </children>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="advanced:Perspective" xmi:id="_UzzG8PCaEeWV7pasVMVq4w" elementId="com.jinnova.docaid.perspective.prescription" label="%perspective.prescription">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_VxUeUPDKEeWOZ6nX1mVyaw" elementId="com.jinnova.docaid.partsashcontainer.5" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_bZ53cPDKEeWOZ6nX1mVyaw" elementId="com.jinnova.docaid.partstack.7" containerData="20">
+            <children xsi:type="basic:Part" xmi:id="_8xjYoPDKEeWOZ6nX1mVyaw" elementId="com.jinnova.docaid.part.chkhm" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.WaitingQueuePartDiag" label="%part.queueBegin"/>
+            <children xsi:type="basic:Part" xmi:id="_jP90wPDKEeWOZ6nX1mVyaw" elementId="com.jinnova.docaid.part.khm" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.WaitingQueuePartMed" label="%part.queueMed"/>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_cJ3UwPDKEeWOZ6nX1mVyaw" elementId="com.jinnova.docaid.partstack.8" containerData="60">
+            <children xsi:type="basic:Part" xmi:id="_wLzZEPDKEeWOZ6nX1mVyaw" elementId="com.jinnova.docaid.part.toathuc" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.PrescriptionPartMed" label="%part.prescription">
+              <menus xmi:id="_P5MncPV3EeWLlLR1DTL5Mw" elementId="com.jinnova.docaid.menu.4">
+                <tags>ViewMenu</tags>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_5nXZkPV1EeWLlLR1DTL5Mw" elementId="com.jinnova.docaid.handledmenuitem.mlitoathuc" label="%part.prescription.menu.reopenPrescription" command="_EES9YPV0EeWLlLR1DTL5Mw"/>
+              </menus>
+            </children>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_iXfUoPDKEeWOZ6nX1mVyaw" elementId="com.jinnova.docaid.partstack.9" containerData="20">
+            <children xsi:type="basic:Part" xmi:id="_sUxdIPDKEeWOZ6nX1mVyaw" elementId="com.jinnova.docaid.part.hontt" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.WaitingQueuePartDone" label="%part.queueEnd"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="advanced:Perspective" xmi:id="_elLhcPCaEeWV7pasVMVq4w" elementId="com.jinnova.docaid.perspective.queueInfo" label="%perspective.callBoard">
+        <children xsi:type="basic:Part" xmi:id="_gx5cIPFUEeWEYPSCuwAYoA" elementId="com.jinnova.docaid.part.0" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.WaitingQueueInfoPart"/>
+      </children>
+      <children xsi:type="advanced:Perspective" xmi:id="_omqNcPCaEeWV7pasVMVq4w" elementId="com.jinnova.docaid.perspective.med" label="%perspective.pharmacy">
+        <children xsi:type="basic:Part" xmi:id="_iNaSsPFmEeWEYPSCuwAYoA" elementId="com.jinnova.docaid.part.1" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.parts.MedicinePart"/>
+      </children>
+    </children>
+    <mainMenu xmi:id="_6wlLicgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_6wlLisgZEeSyMNYR5xypkQ" elementId="file" label="Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_6wlLjcgZEeSyMNYR5xypkQ" elementId="com.jinnova.docaid.handleditem.quit" label="%menu.quit" command="_6wlLfMgZEeSyMNYR5xypkQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_ylKv4PV6EeWLlLR1DTL5Mw" elementId="com.jinnova.docaid.handledmenuitem.btungymi" label="%menu.dayStarts" command="_JRBPAPV2EeWLlLR1DTL5Mw"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_6wlLlcgZEeSyMNYR5xypkQ" elementId="com.jinnova.docaid.trimbar.top">
+      <children xsi:type="menu:ToolBar" xmi:id="_6wlLlsgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_XnaiQPCTEeWV7pasVMVq4w" elementId="com.jinnova.docaid.handledtoolitem.tipnhn" label="%perspective.inception" iconURI="" selected="true" type="Radio" command="_gQmZsOaPEeWB3c3hwdensQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_98C-APCXEeWV7pasVMVq4w" elementId="com.jinnova.docaid.handledtoolitem.khmbnh" label="%perspective.diag" type="Radio" command="_7y6jwPCWEeWV7pasVMVq4w"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Ggg5cPCYEeWV7pasVMVq4w" elementId="com.jinnova.docaid.handledtoolitem.toathuc" label="%perspective.prescription" type="Radio" command="_Gm7f8PCXEeWV7pasVMVq4w"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_QBVIYPCYEeWV7pasVMVq4w" elementId="com.jinnova.docaid.handledtoolitem.bngs" label="%perspective.callBoard" type="Radio" command="__tzsAPCWEeWV7pasVMVq4w"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_oPjQwPFlEeWEYPSCuwAYoA" elementId="com.jinnova.docaid.handledtoolitem.nhthuc" label="%perspective.pharmacy" type="Radio" command="_-LAcgPCWEeWV7pasVMVq4w"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_6wlLfcgZEeSyMNYR5xypkQ" elementId="com.jinnova.docaid.handler.quitCommand" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.handlers.QuitHandler" command="_6wlLfMgZEeSyMNYR5xypkQ"/>
+  <handlers xmi:id="_6wlLgcgZEeSyMNYR5xypkQ" elementId="com.jinnova.docaid.handler.openCommand" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.handlers.OpenHandler" command="_6wlLgMgZEeSyMNYR5xypkQ"/>
+  <handlers xmi:id="_6wlLhMgZEeSyMNYR5xypkQ" elementId="com.jinnova.docaid.handler.saveCommand" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.handlers.SaveHandler" command="_6wlLg8gZEeSyMNYR5xypkQ"/>
+  <handlers xmi:id="_6wlLh8gZEeSyMNYR5xypkQ" elementId="com.jinnova.docaid.handler.aboutCommand" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.handlers.AboutHandler" command="_6wlLhsgZEeSyMNYR5xypkQ"/>
+  <handlers xmi:id="_WRhhcOaPEeWB3c3hwdensQ" elementId="com.jinnova.docaid.handler.perspective" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.handlers.PerspectiveHandlerInception" command="_gQmZsOaPEeWB3c3hwdensQ"/>
+  <handlers xmi:id="_u9ODsPCWEeWV7pasVMVq4w" elementId="com.jinnova.docaid.handler.0" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.handlers.PerspectiveHandlerDiag" command="_7y6jwPCWEeWV7pasVMVq4w"/>
+  <handlers xmi:id="_TdY1APCXEeWV7pasVMVq4w" elementId="com.jinnova.docaid.handler.1" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.handlers.PerspectiveHandlerPrescription" command="_Gm7f8PCXEeWV7pasVMVq4w"/>
+  <handlers xmi:id="_agDmgPCXEeWV7pasVMVq4w" elementId="com.jinnova.docaid.handler.2" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.handlers.PerspectiveHandlerQueueInfo" command="__tzsAPCWEeWV7pasVMVq4w"/>
+  <handlers xmi:id="_iS53wPCXEeWV7pasVMVq4w" elementId="com.jinnova.docaid.handler.3" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.handlers.PerspectiveHandlerMed" command="_-LAcgPCWEeWV7pasVMVq4w"/>
+  <handlers xmi:id="_m2O5APCXEeWV7pasVMVq4w" elementId="com.jinnova.docaid.handler.4" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.handlers.PerspectiveHandlerAdmin" command="_DPN9QPCXEeWV7pasVMVq4w"/>
+  <handlers xmi:id="_7EmegPVzEeWLlLR1DTL5Mw" elementId="com.jinnova.docaid.handler.5" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.handlers.DeletePatientHandler" command="_4N7zYPVzEeWLlLR1DTL5Mw"/>
+  <handlers xmi:id="_Cq7WsPV0EeWLlLR1DTL5Mw" elementId="com.jinnova.docaid.handler.6" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.handlers.QueueStageBackHandler" command="_EES9YPV0EeWLlLR1DTL5Mw"/>
+  <handlers xmi:id="_WfqQAPV1EeWLlLR1DTL5Mw" elementId="com.jinnova.docaid.handler.7" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.handlers.DeleteDiagnosisHandler" command="_SOYoEPV1EeWLlLR1DTL5Mw"/>
+  <handlers xmi:id="_MwQWAPV2EeWLlLR1DTL5Mw" elementId="com.jinnova.docaid.handler.8" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.handlers.DayStartsHandler" command="_JRBPAPV2EeWLlLR1DTL5Mw"/>
+  <handlers xmi:id="_WmLL0PYyEeWRH-MYlofjBQ" elementId="com.jinnova.docaid.handler.9" contributionURI="bundleclass://com.jinnova.docaid/com.jinnova.docaid.handlers.StageBackHandlerFromMed" command="_SB7kkPYyEeWRH-MYlofjBQ"/>
+  <bindingTables xmi:id="_6wlLfsgZEeSyMNYR5xypkQ" elementId="com.jinnova.docaid.bindingtable" bindingContext="_6wlLecgZEeSyMNYR5xypkQ">
+    <bindings xmi:id="_6wlLf8gZEeSyMNYR5xypkQ" elementId="com.jinnova.docaid.keybinding.m1q" keySequence="M1+Q" command="_6wlLfMgZEeSyMNYR5xypkQ"/>
+    <bindings xmi:id="_6wlLhcgZEeSyMNYR5xypkQ" elementId="com.jinnova.docaid.keybinding.m1s" keySequence="M1+S" command="_6wlLg8gZEeSyMNYR5xypkQ"/>
+  </bindingTables>
+  <rootContext xmi:id="_6wlLecgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_6wlLesgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_6wlLe8gZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_6wlLfMgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_6wlLgMgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.file.open" commandName="openCommand"/>
+  <commands xmi:id="_6wlLg8gZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <commands xmi:id="_6wlLhsgZEeSyMNYR5xypkQ" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <commands xmi:id="_gQmZsOaPEeWB3c3hwdensQ" elementId="com.jinnova.docaid.command.perspective" commandName="inception"/>
+  <commands xmi:id="_7y6jwPCWEeWV7pasVMVq4w" elementId="com.jinnova.docaid.command.diag" commandName="diag"/>
+  <commands xmi:id="_Gm7f8PCXEeWV7pasVMVq4w" elementId="com.jinnova.docaid.command.prescription" commandName="prescription"/>
+  <commands xmi:id="__tzsAPCWEeWV7pasVMVq4w" elementId="com.jinnova.docaid.command.queueinfo" commandName="queueInfo"/>
+  <commands xmi:id="_-LAcgPCWEeWV7pasVMVq4w" elementId="com.jinnova.docaid.command.med" commandName="med"/>
+  <commands xmi:id="_DPN9QPCXEeWV7pasVMVq4w" elementId="com.jinnova.docaid.command.admin" commandName="admin"/>
+  <commands xmi:id="_4N7zYPVzEeWLlLR1DTL5Mw" elementId="com.jinnova.docaid.command.deletepatient" commandName="deletePatient"/>
+  <commands xmi:id="_EES9YPV0EeWLlLR1DTL5Mw" elementId="com.jinnova.docaid.command.queuestageback" commandName="queueStageBack"/>
+  <commands xmi:id="_SOYoEPV1EeWLlLR1DTL5Mw" elementId="com.jinnova.docaid.command.deletediagnosis" commandName="deleteDiagnosis"/>
+  <commands xmi:id="_JRBPAPV2EeWLlLR1DTL5Mw" elementId="com.jinnova.docaid.command.daystarts" commandName="dayStarts"/>
+  <commands xmi:id="_SB7kkPYyEeWRH-MYlofjBQ" elementId="com.jinnova.docaid.command.stagebackfrommed" commandName="stageBackFromMed"/>
+  <addons xmi:id="_6wlLcsgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_6wlLc8gZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_6wlLdMgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_6wlLdcgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_6wlLdsgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_6wlLd8gZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_6wlLeMgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_W98YwP0bEeWB5d3Bd_Ke8Q" elementId="com.jinnova.docaid.addon.0" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.dndaddon.DnDAddon"/>
+  <addons xmi:id="_e-fu0P0bEeWB5d3Bd_Ke8Q" elementId="com.jinnova.docaid.addon.1" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.cleanupaddon.CleanupAddon"/>
+</application:Application>
